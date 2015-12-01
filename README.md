@@ -6,7 +6,7 @@ The idea here is that you can use Quill to construct SQL queries and then lift t
 
 The provided `DoobieSource` acts just like a Quill `JdbcSource` and provides compile-time query checking, but `.run` delivers doobie programs rather than immediate results. Note that **type mapping is provided by Quill** here and is very rudimentary; doobie's `Meta`/`Atom`/`Composite` scheme is unused here.
 
-This software is **very experimental**, unreleased, and unsupported. But feel free to discuss on the [doobie gitter channel](https://gitter.im/tpolecat/doobie). If there is sufficient interest this project may evolve into an official doobie contrib project.
+This software is **very experimental**, unreleased, and unsupported. But feel free to discuss on the [doobie gitter channel](https://gitter.im/tpolecat/doobie). If there is sufficient interest this may evolve into an official doobie contrib project.
 
 Thanks to @fwbrasil for help getting up and running.
 

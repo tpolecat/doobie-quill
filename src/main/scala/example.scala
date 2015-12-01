@@ -15,7 +15,7 @@ import scalaz.concurrent.Task
 object ds extends DoobieSource[PostgresDialect, SnakeCase]
 
 // Example doobie program that uses Quill to construct queries. Note that this relies on the config
-// file at /src/main/resources/application.conf
+// file at /src/main/resources/application.conf and the Postgres example db described in the book of doobie.
 object example extends App {
 
   // A data type that happens to line up with the COUNTRY table in the test db. Try changing the
